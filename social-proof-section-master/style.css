@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
 }
 
 section{
@@ -10,21 +11,21 @@ section{
   height: 80vh;
   display: flex;
  }
-.container{
-  width: 25%;
-  font-family: 'Spartan', sans-serif;
-}
 
-.container-box{
+ .container-box{
   position: relative;
-  max-width: 80%;
+  max-width: 75vw;
   padding: 50px;
   background: rgba(255,255,255,.7);
   left: 180px;
   box-shadow: 0 5px 15px rgba(0,0,0,.5);
   margin: 20px;
-
 }
+.container{
+  width: 25%;
+  font-family: 'Spartan', sans-serif;
+}
+
 .container .intro-first-line{
   color:  hsl(300, 43%, 22%);
   font-weight: 600;
@@ -42,7 +43,6 @@ section{
   height: 50px;
   padding: 5px;
   border-radius: 10px;
-  font-family: 'Spartan', sans-serif;
   font-size: 12px;
   color: hsl(279, 29%, 50%);
  }
@@ -76,6 +76,109 @@ section{
   font-size: 12px;
   color: hsl(279, 29%, 50%);
  }
+
+ .verified-buyer-colton{
+  border-radius: 5px;
+  width: 300px; 
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 250px;
+  align-items: top;
+  background-color: hsl(300, 43%, 22%);
+  height: 150px;
+}
+.colton-profile-info{
+  display: flex;
+}
+.verified-buyer-colton .colton-info{
+  padding: 10px;
+}
+
+.verified-buyer-colton img{
+border-radius: 50%;
+margin-left: 20px;
+margin-top:10px;
+height: 35px;
+width: 30px;
+}
+
+.verified-buyer-colton p{
+padding: 10px;
+margin-left: -35px;
+margin-top: 5px;
+width: 280px;
+color: hsl(0, 0%, 100%);
+font-size: 14px;
+}
+
+/* Irene's review section styles*/
+.verified-buyer-irene{
+border-radius: 5px;
+width: 300px; 
+position: absolute;
+margin-top: 370px;
+margin-left: 570px;
+align-items: top;
+background-color: hsl(300, 43%, 22%);
+height: 150px;
+}
+.irene-profile-info{
+display: flex;
+}
+.verified-buyer-irene .irene-info{
+padding: 10px;
+}
+
+.verified-buyer-irene img{
+border-radius: 50%;
+margin-left: 20px;
+margin-top:10px;
+height: 35px;
+width: 30px;
+}
+
+.verified-buyer-irene p{
+padding: 10px;
+margin-left: -35px;
+margin-top: 5px;
+width: 280px;
+color: hsl(0, 0%, 100%);
+font-size: 14px;
+}
+/*Styles for Anne's review section */
+.verified-buyer-anne{
+border-radius: 5px;
+width: 300px; 
+position: absolute;
+margin-top: 400px;
+margin-left: 890px;
+align-items: top;
+background-color: hsl(300, 43%, 22%);
+height: 150px;
+}
+.anne-profile-info{
+display: flex;
+}
+.verified-buyer-anne .anne-info{
+padding: 10px;
+}
+
+.verified-buyer-anne img{
+border-radius: 50%;
+margin-left: 20px;
+margin-top:10px;
+height: 35px;
+width: 30px;
+}
+
+.verified-buyer-anne p{
+padding: 10px;
+margin-left: -35px;
+margin-top: 5px;
+width: 280px;
+color: hsl(0, 0%, 100%);
+font-size: 14px;
+}
 
 
 .attribution {
