@@ -9,15 +9,26 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   font-family: "Kumbh Sans", sans-serif;
+  margin: 50px;
+}
+h2 {
+  font-size: 700;
 }
 /*main content styles */
 #content-wrapper {
-  border: 1px solid red;
+  border-radius: 25px;
+  padding: 58px;
   margin: auto;
   width: 79.2%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: hsl(240, 100%, 99%);
+  max-height: 75vh;
+}
+#container-right {
+ 
+  height: 35%;
+  width: 85%;
 }
 
 /* Styles each button used to open and close the accordion panel */
@@ -34,6 +45,9 @@ body {
   text-align: left;
   outline: none;
   transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* Add a background color to the text 
 if it is clicked on (add the .active class with JS), 
