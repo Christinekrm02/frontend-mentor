@@ -25,10 +25,32 @@ h2 {
   background: hsl(240, 100%, 99%);
   max-height: 75vh;
 }
+
+/*left side*/
+#container-left {
+  width: auto;
+  background-image: url("../images/bg-pattern-desktop.svg");
+  position: relative;
+}
+#container-left #woman-online-desktop {
+  position: absolute;
+  right: 180px;
+  top: 20px;
+}
+
+#container-left #woman-online-desktop img {
+  max-width: 600px;
+}
+#container-left #box-desktop {
+  position: absolute;
+  right: 460px;
+  top: 115px;
+}
+
+/*right side */
 #container-right {
- 
-  height: 35%;
-  width: 85%;
+  height: auto;
+  width: auto;
 }
 
 /* Styles each button used to open and close the accordion panel */
@@ -36,9 +58,9 @@ h2 {
   background-color: white;
   color: hsl(237, 12%, 33%);
   border-bottom: 1px solid hsl(240, 5%, 91%);
-  border-top: none;
-  border-right: none;
-  border-left: none;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -49,14 +71,15 @@ h2 {
   align-items: center;
   justify-content: space-between;
 }
+
 /* Add a background color to the text 
-if it is clicked on (add the .active class with JS), 
-and when you move the mouse over it (hover) */
-.active,
+if it is clicked on (add the .active class with JS)?, 
+and when you move the mouse over it (hover) TODO: make onclick color black*/
+
 .accordion:hover {
   color: hsl(14, 88%, 65%);
 }
-.active,
+
 .accordion:hover::after {
   color: hsl(240, 6%, 50%);
   font-weight: 700;
